@@ -48,7 +48,6 @@ export default function App() {
 
   const submit = () => {
     const newUser = {
-      name: formValues.name.trim(),
       email: formValues.email.trim(),
      password: formValues.password.trim(),
     }
